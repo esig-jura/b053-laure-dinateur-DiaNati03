@@ -123,6 +123,7 @@ header nav ul{
     display: flex;
     gap:1.5em;
     justify-content: center;
+    list-style-type: none;
 }
 
 header nav a{
@@ -131,14 +132,50 @@ header nav a{
 
 }
 /*survoler avec souris*/
-header nav a:hover{
+header nav a:hover,
+header nav a.actif {
     color: #2ec4b6;
 }
 /*premier de la liste*/
 header nav li:first-of-type{
     display: none;
 }
-/*sélécteur d'attribut*/
+/*sélécteur d'attribut
+
 header nav {href="index.html"} {
 
+}
+
+ */
+
+/***************************
+            BODY
+ ***************************/
+
+
+
+/***************************
+          Pied de page
+ ***************************/
+footer ul:first-of-type{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    list-style-type: none;
+    padding:0;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer ul img {
+    width: 50px;
+    filter: grayscale(1);
+    transition: all 700ms;
+}
+
+footer ul img:hover {
+    width: 70px;
+    filter: grayscale(0);
 }

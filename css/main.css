@@ -179,3 +179,33 @@ footer ul img:hover {
     width: 70px;
     filter: grayscale(0);
 }
+
+
+/***************************
+          Page qui suis-je
+ ***************************/
+
+.page-info h1{
+    text-align: center;
+}
+
+.page-info h2 {
+    text-align: center;
+}
+
+.page-info img {
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* avec la création d'un élément div
+.page-info .photo {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+
+

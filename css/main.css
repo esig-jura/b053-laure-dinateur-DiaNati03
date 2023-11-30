@@ -193,7 +193,7 @@ footer ul img:hover {
     text-align: center;
 }
 
-.page-info img {
+.page-info main img {
     border-radius: 50%;
     max-width: 200px;
     display: block;
@@ -206,6 +206,48 @@ footer ul img:hover {
     justify-content: center;
 }
 */
+
+/***************************
+       me contacter
+ ***************************/
+
+.me-contacter h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.me-contacter p{
+    max-width: 500px;
+}
+
+.me-contacter .sections{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.me-contacter .puce li:first-of-type{
+    display: list-item;
+    list-style-image: url(/img/phone.png);
+}
+
+.me-contacter .puce li:nth-child(2) {
+    display: list-item;
+    list-style-image: url(/img/mail.png);
+}
+
+.me-contacter .puce li:nth-child(3) {
+    display: list-item;
+    list-style-image: url(/img/twitter.png);
+}
+
+.me-contacter .puce li:nth-child(4) {
+    display: list-item;
+    list-style-image: url(/img/facebook.png);
+}
+
+
 
 
 
